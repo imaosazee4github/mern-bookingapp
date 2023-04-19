@@ -23,9 +23,9 @@ const connect = async () => {
 
 };
 
-mongoose.connection.on("disconnected", () => {
-    console.log("Mongoose is disconnected");
-    });
+// mongoose.connection.on("disconnected", () => {
+//     console.log("Mongoose is disconnected");
+//     });
 
     app.use(cors())
 
